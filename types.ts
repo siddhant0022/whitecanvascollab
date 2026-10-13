@@ -3,7 +3,7 @@ import type { LiveList, LiveObject } from "@liveblocks/client";
 export type Stroke = { points: number[][]; color: string; size: number };
 export type Shape = {
   id: string;
-  kind: "rectangle" | "ellipse" | "line";
+  kind: "rectangle" | "ellipse" | "line" | "arrow";
   x: number;
   y: number;
   width: number;
